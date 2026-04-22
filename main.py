@@ -11,6 +11,27 @@ def add_employee():
     print("Employee Added Successfully")
 
 
+
+
+def view_employee():
+    file  = open("employees.txt", "r")
+
+
+    data = file.readlines()
+
+
+    if len(data) == 0:
+        print("No Employee Found")
+    else:
+        print("\nEmployee Records")
+        for line in data: 
+            print(line.strip())
+
+
+    file.close()
+
+
+
 while True:
     print("\n--- Employee Management System ---")
     print("1. Add Employee")
@@ -23,8 +44,7 @@ while True:
         add_employee()
 
     elif choice == "2":
-        print("View feature coming tomorrow")
-
+        view_employee()
     elif choice == "3":
         print("Thank You")
         break
