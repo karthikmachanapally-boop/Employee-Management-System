@@ -1,2 +1,1 @@
 101,Karthik,Developer,50000
-102,Ravi,Tester,40000
