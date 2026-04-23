@@ -9,3 +9,10 @@ Features:
 - Search Employee 
 - Updtae Employee 
 -Delete Employee
+
+
+Tech Used:
+- Python 
+- Git
+- VS Code
+  
