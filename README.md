@@ -3,7 +3,7 @@ Employee Management System
 Employee Mangement system is an python based software application that is used to store, manage, and maintain the employee records in an organization. 
 
 
-Features:
+## Features:
 - Add Employee Details
 - View Employee 
 - Search Employee 
@@ -11,8 +11,26 @@ Features:
 -Delete Employee
 
 
-Tech Used:
+## Tech Used:
 - Python 
 - Git
 - VS Code
-  
+
+## Storage:
+-Data stored using employees.txt
+
+
+## How to Run:
+python main.py
+
+
+## Screenshot:
+[Project Screenshot](Project-Image.png)
+
+
+## Laerning Outcomes:
+-File Hnadling
+-CRUD operations
+-Functions 
+-Loops and  Conditions 
+-Git and GitHub workflow
