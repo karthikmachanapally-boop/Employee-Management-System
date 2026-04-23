@@ -10,9 +10,6 @@ def add_employee():
 
     print("Employee Added Successfully")
 
-
-
-
 def view_employee():
     file = open("employees.txt", "r")
     data = file.readlines()
